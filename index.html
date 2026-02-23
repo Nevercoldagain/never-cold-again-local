@@ -38,7 +38,7 @@ body{background-color:#FCFBF4;color:#2A2824;font-family:'Inter',sans-serif;-webk
 <div class="hero-image-container relative mt-16 mb-12">
 <div class="absolute inset-0 bg-gradient-to-tr from-butter to-lemon rounded-[2rem] transform rotate-2 scale-105 opacity-50 blur-2xl"></div>
 <div class="relative rounded-[2rem] overflow-hidden bg-butter shadow-xl">
-<img src="nca-packaging.png" alt="NCA Packaging" class="w-full h-auto object-contain"/>
+<img src="nca-packaging.png" alt="NCA Packaging" class="w-full h-auto object-cover scale-[1.02]"/>
 <div class="absolute inset-0 bg-gradient-to-t from-ink/10 to-transparent"></div>
 <svg class="absolute bottom-8 right-8 w-12 h-12 text-cream fill-cream/20" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
 </div>
@@ -184,10 +184,41 @@ Get Early Access
 You're on the list! We'll be in touch.
 </div>
 
-<form id="waitlist-form" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-<input type="email" required placeholder="Enter your email" class="flex-1 rounded-full px-6 py-4 bg-cream border-none focus:ring-2 focus:ring-lemon outline-none text-ink placeholder:text-ink/40"/>
-<button type="submit" class="bg-ink text-cream px-8 py-4 rounded-full font-medium hover:bg-ink-light transition-colors whitespace-nowrap cursor-pointer">Subscribe</button>
+<form
+  action="https://nevercoldagain.us8.list-manage.com/subscribe/post?u=af37d1191506aeb55c3a755bd&amp;id=044a6cef24&amp;f_id=003cc7e1f0"
+  method="post"
+  target="_blank"
+  novalidate
+  class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+>
+  <input
+    type="email"
+    name="EMAIL"
+    id="mce-EMAIL"
+    required
+    placeholder="Enter your email"
+    class="flex-1 rounded-full px-6 py-4 bg-cream border-none focus:ring-2 focus:ring-lemon outline-none text-ink placeholder:text-ink/40"
+  />
+
+  <!-- Mailchimp bot protection (keep this) -->
+  <div aria-hidden="true" style="position:absolute; left:-5000px;">
+    <input type="text" name="b_af37d1191506aeb55c3a755bd_044a6cef24" tabindex="-1" value="">
+  </div>
+
+  <button
+    type="submit"
+    class="bg-ink text-cream px-8 py-4 rounded-full font-medium hover:bg-ink-light transition-colors whitespace-nowrap cursor-pointer"
+  >
+    Get Early Access
+  </button>
+
+  <p class="text-xs text-ink-light/80 mt-2 sm:mt-0 sm:ml-2 self-center">
+    By joining, you’ll get early access + launch-day perks.
+  </p>
 </form>
+<p class="mt-4 text-sm text-ink-light font-light">
+  Early access + launch-day perks. No spam. Unsubscribe anytime.
+</p>
 </div>
 </div>
 </div>
@@ -201,12 +232,5 @@ You're on the list! We'll be in touch.
 <p class="text-ink-light text-sm font-light">© 2026 Never Cold Again. All rights reserved.</p>
 </footer>
 
-<script>
-document.getElementById('waitlist-form').addEventListener('submit', function(e) {
-e.preventDefault();
-this.classList.add('hidden');
-document.getElementById('success-message').classList.remove('hidden');
-});
-</script>
 </body>
 </html>
