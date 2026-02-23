@@ -182,55 +182,51 @@ Get Early Access
 <div id="success-message" class="hidden bg-cream rounded-full py-4 px-8 inline-flex items-center gap-3 text-ink font-medium">
 <svg class="w-5 h-5 text-lemon fill-lemon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
 You're on the list! We'll be in touch.
-</div>
 
-<form
-  action="https://nevercoldagain.us8.list-manage.com/subscribe/post?u=af37d1191506aeb55c3a755bd&amp;id=044a6cef24&amp;f_id=003cc7e1f0"
-  method="post"
-  target="_blank"
-  novalidate
-  class="mt-10 max-w-2xl mx-auto"
->
-  <div class="grid gap-3 sm:grid-cols-[1.2fr_1.6fr_0.8fr_auto] items-stretch">
+</div>
+<div class="mt-12 max-w-5xl mx-auto">
+
+  <form
+    action="https://nevercoldagain.us8.list-manage.com/subscribe/post?u=af37d1191506aeb55c3a755bd&amp;id=044a6cef24&amp;f_id=003cc7e1f0"
+    method="post"
+    target="_blank"
+    novalidate
+    class="flex flex-wrap items-stretch justify-center gap-4"
+  >
+
     <!-- First name -->
-    <div class="bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
-      <input
-        type="text"
-        name="FNAME"
-        id="mce-FNAME"
-        required
-        placeholder="First name"
-        class="w-full bg-transparent px-5 py-4 text-ink placeholder:text-ink/40 outline-none"
-      />
-    </div>
+    <input
+      type="text"
+      name="FNAME"
+      id="mce-FNAME"
+      required
+      placeholder="First name"
+      class="flex-1 min-w-[200px] rounded-full px-7 py-4 bg-cream border border-butter/60 focus:ring-2 focus:ring-lemon outline-none text-ink placeholder:text-ink/40 shadow-sm"
+    />
 
     <!-- Email -->
-    <div class="bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
-      <input
-        type="email"
-        name="EMAIL"
-        id="mce-EMAIL"
-        required
-        placeholder="Email"
-        class="w-full bg-transparent px-5 py-4 text-ink placeholder:text-ink/40 outline-none"
-      />
-    </div>
+    <input
+      type="email"
+      name="EMAIL"
+      id="mce-EMAIL"
+      required
+      placeholder="Email address"
+      class="flex-[1.6] min-w-[260px] rounded-full px-7 py-4 bg-cream border border-butter/60 focus:ring-2 focus:ring-lemon outline-none text-ink placeholder:text-ink/40 shadow-sm"
+    />
 
-    <!-- Shoe size (US) -->
-    <div class="bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
-      <input
-        type="text"
-        name="LNAME"
-        id="mce-LNAME"
-        required
-        inputmode="numeric"
-        pattern="^[0-9]{1,2}(\.5)?$"
-        placeholder="Shoe size"
-        class="w-full bg-transparent px-5 py-4 text-ink placeholder:text-ink/40 outline-none"
-      />
-    </div>
+    <!-- Shoe size -->
+    <input
+      type="text"
+      name="LNAME"
+      id="mce-LNAME"
+      required
+      inputmode="numeric"
+      pattern="^[0-9]{1,2}(\.5)?$"
+      placeholder="Shoe size (US)"
+      class="flex-none w-[160px] min-w-[140px] rounded-full px-7 py-4 bg-cream border border-butter/60 focus:ring-2 focus:ring-lemon outline-none text-ink placeholder:text-ink/40 shadow-sm"
+    />
 
-    <!-- Bot protection (keep) -->
+    <!-- Mailchimp bot protection (DO NOT REMOVE) -->
     <div aria-hidden="true" style="position:absolute; left:-5000px;">
       <input
         type="text"
@@ -240,19 +236,21 @@ You're on the list! We'll be in touch.
       />
     </div>
 
-    <!-- Submit -->
+    <!-- CTA Button -->
     <button
       type="submit"
-      class="bg-ink text-cream px-8 py-4 rounded-full font-medium hover:bg-ink-light transition-colors whitespace-nowrap cursor-pointer"
+      class="flex-none rounded-full bg-ink text-cream px-12 py-4 font-medium hover:bg-ink-light transition-colors whitespace-nowrap shadow-md"
     >
       Get Early Access
     </button>
-  </div>
 
-  <p class="mt-4 text-sm text-ink-light font-light text-center sm:text-left">
-    Early access perks. No spam. Unsubscribe anytime.
+  </form>
+
+  <!-- Helper text -->
+  <p class="mt-5 text-center text-sm text-ink-light font-light">
+    Early access + launch-day perks. No spam. Unsubscribe anytime.
   </p>
-</form>
+</div>
 </div>
 </div>
 </div>
