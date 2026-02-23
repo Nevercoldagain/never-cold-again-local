@@ -191,20 +191,46 @@ You're on the list! We'll be in touch.
   novalidate
   class="mt-10 max-w-2xl mx-auto"
 >
-  <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-    <!-- Connected input shell -->
-    <div class="flex-1 bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
+  <div class="grid gap-3 sm:grid-cols-[1.2fr_1.6fr_0.8fr_auto] items-stretch">
+    <!-- First name -->
+    <div class="bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
+      <input
+        type="text"
+        name="FNAME"
+        id="mce-FNAME"
+        required
+        placeholder="First name"
+        class="w-full bg-transparent px-5 py-4 text-ink placeholder:text-ink/40 outline-none"
+      />
+    </div>
+
+    <!-- Email -->
+    <div class="bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
       <input
         type="email"
         name="EMAIL"
         id="mce-EMAIL"
         required
-        placeholder="Enter your email"
+        placeholder="Email"
         class="w-full bg-transparent px-5 py-4 text-ink placeholder:text-ink/40 outline-none"
       />
     </div>
 
-    <!-- Mailchimp bot protection (keep this) -->
+    <!-- Shoe size (US) -->
+    <div class="bg-cream rounded-full p-2 border border-butter/60 shadow-sm ring-1 ring-ink/5">
+      <input
+        type="text"
+        name="LNAME"
+        id="mce-LNAME"
+        required
+        inputmode="numeric"
+        pattern="^[0-9]{1,2}(\.5)?$"
+        placeholder="Shoe size"
+        class="w-full bg-transparent px-5 py-4 text-ink placeholder:text-ink/40 outline-none"
+      />
+    </div>
+
+    <!-- Bot protection (keep) -->
     <div aria-hidden="true" style="position:absolute; left:-5000px;">
       <input
         type="text"
@@ -214,6 +240,7 @@ You're on the list! We'll be in touch.
       />
     </div>
 
+    <!-- Submit -->
     <button
       type="submit"
       class="bg-ink text-cream px-8 py-4 rounded-full font-medium hover:bg-ink-light transition-colors whitespace-nowrap cursor-pointer"
@@ -222,7 +249,6 @@ You're on the list! We'll be in touch.
     </button>
   </div>
 
-  <!-- Keep ONE reassurance line (this one), delete the side note -->
   <p class="mt-4 text-sm text-ink-light font-light text-center sm:text-left">
     Early access + launch-day perks. No spam. Unsubscribe anytime.
   </p>
