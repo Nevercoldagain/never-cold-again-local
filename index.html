@@ -13,6 +13,8 @@ tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif'],serif:['
 <style>
 body{background-color:#FCFBF4;color:#2A2824;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
 .hero-image-container{max-width:900px;margin:0 auto;}
+html{scroll-behavior:smooth;}
+#waitlist{scroll-margin-top:110px;}
 </style>
 </head>
 <body class="min-h-screen selection:bg-lemon selection:text-ink">
@@ -25,179 +27,8 @@ body{background-color:#FCFBF4;color:#2A2824;font-family:'Inter',sans-serif;-webk
 </div>
 </nav>
 
-<section class="pt-40 pb-20 px-6 overflow-hidden text-center">
-<div class="max-w-4xl mx-auto">
-<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-butter/50 text-sm font-medium mb-8">
-<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
-<span>Coming Soon</span>
-</div>
-<h1 class="text-5xl md:text-7xl font-serif leading-[1.1] mb-6">never <span class="italic text-ink-light">Cold</span> again.</h1>
-<p class="text-lg md:text-xl text-ink-light mb-10 font-light leading-relaxed max-w-2xl mx-auto">
-  Ultra-thin heated insole designed for city walks and commutes. Up to <span class="font-medium text-ink">10 hours</span> of invisible warmth — no bulky boots, no double socks.
-</p>
-<div class="hero-image-container relative mt-16 mb-12">
-<div class="absolute inset-0 bg-gradient-to-tr from-butter to-lemon rounded-[2rem] transform rotate-2 scale-105 opacity-50 blur-2xl"></div>
-<div class="relative rounded-[2rem] overflow-hidden bg-butter shadow-xl">
-<img src="nca-packaging.png" alt="NCA Packaging" class="w-full h-auto object-cover scale-[1.02]"/>
-<div class="absolute inset-0 bg-gradient-to-t from-ink/10 to-transparent"></div>
-<svg class="absolute bottom-8 right-8 w-12 h-12 text-cream fill-cream/20" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-</div>
-</div>
-
-<a href="#waitlist" class="inline-flex bg-ink text-cream px-8 py-4 rounded-full items-center gap-3 hover:bg-ink-light transition-all hover:scale-105 active:scale-95 cursor-pointer mx-auto">
-Get Early Access 
-<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-</a>
-</div>
-</section>
-
-<section class="py-24 md:py-32 px-6 bg-cream">
-  <div class="max-w-7xl mx-auto">
-    <div class="max-w-5xl">
-      
-      <!-- Headline -->
-      <h2 class="font-serif text-5xl md:text-7xl leading-[1.05] text-ink">
-        Foot Warming <span class="italic text-ink-light">Insoles</span>
-      </h2>
-
-      <!-- Body copy -->
-      <div class="mt-14 space-y-10">
-        <p class="text-lg md:text-2xl leading-relaxed text-ink-light font-light">
-          Thin heat inserts that slide directly into your shoes. As you walk, a natural
-          air-activated reaction inside the insole begins to deliver consistent warmth.
-        </p>
-
-        <p class="text-base md:text-xl leading-relaxed text-ink-light font-light">
-          That heat lasts for up to 10 hours, keeping your feet comfortably warm throughout
-          the day. Warm feet help regulate your overall body temperature, so you stay comfortable
-          on cold commutes, long walks, outdoor events, or winter nights out.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-  
-
-<section class="py-24 px-6 bg-butter/30">
-  <div class="max-w-7xl mx-auto">
-    <div class="grid md:grid-cols-2 gap-12 items-center">
-      
-      <!-- Image (Left) -->
-      <div class="relative">
-        <div class="absolute inset-0 bg-gradient-to-tr from-butter to-lemon rounded-[2rem] transform rotate-2 scale-105 opacity-50 blur-2xl"></div>
-        <div class="relative rounded-[2rem] overflow-hidden bg-cream shadow-xl border border-butter">
-          <img src="product-proof.png" alt="Never Cold Again insoles in shoe" class="w-full h-auto object-cover"/>
-          <div class="absolute inset-0 bg-gradient-to-t from-ink/10 to-transparent"></div>
-        </div>
-      </div>
-
-      <!-- Text (Right) -->
-      <div class="text-left">
-        <h2 class="text-4xl md:text-5xl font-serif mb-5">Designed for real winter walks.</h2>
-        <p class="text-ink-light text-lg font-light leading-relaxed mb-10">
-          Ultra-thin insoles engineered for city commutes and long days on your feet.
-        </p>
-
-        <ul class="space-y-4 text-ink-light font-light text-lg">
-          <li class="flex gap-3 items-start">
-            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
-            <span><span class="text-ink font-medium">Ultra-thin profile</span> — fits inside loafers, boots, and sneakers</span>
-          </li>
-          <li class="flex gap-3 items-start">
-            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
-            <span><span class="text-ink font-medium">Up to 10 hours</span> of warmth per pair</span>
-          </li>
-          <li class="flex gap-3 items-start">
-            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
-            <span><span class="text-ink font-medium">Air-activated heat</span> — no batteries</span>
-          </li>
-          <li class="flex gap-3 items-start">
-            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
-            <span><span class="text-ink font-medium">Made for everyday footwear</span> — designed with women’s shoes in mind</span>
-          </li>
-          <li class="flex gap-3 items-start">
-            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
-            <span><span class="text-ink font-medium">Lightweight feel</span> — seamless underfoot comfort</span>
-          </li>
-        </ul>
-
-        <div class="mt-10">
-          <a href="#waitlist" class="inline-flex bg-ink text-cream px-8 py-4 rounded-full items-center gap-3 hover:bg-ink-light transition-all hover:scale-105 active:scale-95 cursor-pointer">
-            Reserve your size
-            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-            </svg>
-          </a>
-          <p class="mt-3 text-sm text-ink-light font-light">First drop ships soon</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-  
-<section class="py-24 px-6 bg-cream">
-<div class="max-w-7xl mx-auto">
-<div class="text-center max-w-2xl mx-auto mb-16">
-<svg class="w-8 h-8 mx-auto mb-6 text-lemon fill-lemon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-<h2 class="text-4xl md:text-5xl font-serif mb-6">Tested in the cold.</h2>
-<p class="text-ink-light text-lg font-light">Early testers are already falling in love with the NCA experience.</p>
-</div>
-  
-<div class="grid md:grid-cols-3 gap-8">
-
-  <!-- Testimonial 1 -->
-  <div class="bg-butter/20 p-8 rounded-3xl border border-butter relative">
-    <div class="flex gap-1 mb-6 text-lemon">
-      ★ ★ ★ ★ ★
-    </div>
-    <p class="text-ink-light font-light leading-relaxed mb-6 italic">
-      "I walk 20 blocks to my office in Manhattan every day. I used to wear bulky snow boots and change at my desk. Now I just slip these into my loafers and my feet stay warm the entire commute."
-    </p>
-    <div>
-      <p class="font-medium text-ink">Sarah M.</p>
-      <p class="text-sm text-ink-light">Manhattan, NY</p>
-    </div>
-  </div>
-
-  <!-- Testimonial 2 -->
-  <div class="bg-butter/20 p-8 rounded-3xl border border-butter relative">
-    <div class="flex gap-1 mb-6 text-lemon">
-      ★ ★ ★ ★ ★
-    </div>
-    <p class="text-ink-light font-light leading-relaxed mb-6 italic">
-      "Waiting for the L train in January is brutal. These insoles are a lifesaver. They last my entire workday and commute home, and they don't make my boots feel tight."
-    </p>
-    <div>
-      <p class="font-medium text-ink">Elena R.</p>
-      <p class="text-sm text-ink-light">Brooklyn, NY</p>
-    </div>
-  </div>
-
-  <!-- Testimonial 3 -->
-  <div class="bg-butter/20 p-8 rounded-3xl border border-butter relative">
-    <div class="flex gap-1 mb-6 text-lemon">
-      ★ ★ ★ ★ ★
-    </div>
-    <p class="text-ink-light font-light leading-relaxed mb-6 italic">
-      "Finally something that actually fits in my sneakers. I wore them to an outdoor holiday market in West Loop and for the first time ever, I wasn’t the one begging to go inside."
-    </p>
-    <div>
-      <p class="font-medium text-ink">Chloe T.</p>
-      <p class="text-sm text-ink-light">Chicago, IL</p>
-    </div>
-  </div>
-
-</div>
-</div>
-</div>
-</section>
-
-<section id="waitlist" class="py-32 px-6">
+<!-- WAITLIST FIRST (so nav link lands here) -->
+<section id="waitlist" class="py-32 px-6 pt-40">
 <div class="max-w-3xl mx-auto text-center">
 <div class="bg-butter rounded-[3rem] p-12 md:p-20 relative overflow-hidden">
 <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-lemon rounded-full blur-3xl opacity-50"></div>
@@ -210,10 +41,9 @@ Get Early Access
 <div id="success-message" class="hidden bg-cream rounded-full py-4 px-8 inline-flex items-center gap-3 text-ink font-medium">
 <svg class="w-5 h-5 text-lemon fill-lemon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
 You're on the list! We'll be in touch.
-
 </div>
-<div class="mt-12 max-w-5xl mx-auto">
 
+<div class="mt-12 max-w-5xl mx-auto">
   <form
     action="https://nevercoldagain.us8.list-manage.com/subscribe/post?u=af37d1191506aeb55c3a755bd&amp;id=044a6cef24&amp;f_id=003cc7e1f0"
     method="post"
@@ -279,6 +109,175 @@ You're on the list! We'll be in touch.
     Early access + launch-day perks. No spam. Unsubscribe anytime.
   </p>
 </div>
+
+</div>
+</div>
+</div>
+</section>
+
+<!-- HERO IMMEDIATELY AFTER WAITLIST -->
+<section class="pt-24 pb-20 px-6 overflow-hidden text-center">
+<div class="max-w-4xl mx-auto">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-butter/50 text-sm font-medium mb-8">
+<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+<span>Coming Soon</span>
+</div>
+<h1 class="text-5xl md:text-7xl font-serif leading-[1.1] mb-6">never <span class="italic text-ink-light">Cold</span> again.</h1>
+<p class="text-lg md:text-xl text-ink-light mb-10 font-light leading-relaxed max-w-2xl mx-auto">
+  Ultra-thin heated insole designed for city walks and commutes. Up to <span class="font-medium text-ink">10 hours</span> of invisible warmth — no bulky boots, no double socks.
+</p>
+<div class="hero-image-container relative mt-16 mb-12">
+<div class="absolute inset-0 bg-gradient-to-tr from-butter to-lemon rounded-[2rem] transform rotate-2 scale-105 opacity-50 blur-2xl"></div>
+<div class="relative rounded-[2rem] overflow-hidden bg-butter shadow-xl">
+<img src="nca-packaging.png" alt="NCA Packaging" class="w-full h-auto object-cover scale-[1.02]"/>
+<div class="absolute inset-0 bg-gradient-to-t from-ink/10 to-transparent"></div>
+<svg class="absolute bottom-8 right-8 w-12 h-12 text-cream fill-cream/20" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+</div>
+</div>
+
+<a href="#waitlist" class="inline-flex bg-ink text-cream px-8 py-4 rounded-full items-center gap-3 hover:bg-ink-light transition-all hover:scale-105 active:scale-95 cursor-pointer mx-auto">
+Get Early Access 
+<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</a>
+</div>
+</section>
+
+<!-- PRODUCT SECTIONS -->
+<section class="py-24 md:py-32 px-6 bg-cream">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-5xl">
+      <h2 class="font-serif text-5xl md:text-7xl leading-[1.05] text-ink">
+        Foot Warming <span class="italic text-ink-light">Insoles</span>
+      </h2>
+
+      <div class="mt-14 space-y-10">
+        <p class="text-lg md:text-2xl leading-relaxed text-ink-light font-light">
+          Thin heat inserts that slide directly into your shoes. As you walk, a natural
+          air-activated reaction inside the insole begins to deliver consistent warmth.
+        </p>
+
+        <p class="text-base md:text-xl leading-relaxed text-ink-light font-light">
+          That heat lasts for up to 10 hours, keeping your feet comfortably warm throughout
+          the day. Warm feet help regulate your overall body temperature, so you stay comfortable
+          on cold commutes, long walks, outdoor events, or winter nights out.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="py-24 px-6 bg-butter/30">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      
+      <!-- Image (Left) -->
+      <div class="relative">
+        <div class="absolute inset-0 bg-gradient-to-tr from-butter to-lemon rounded-[2rem] transform rotate-2 scale-105 opacity-50 blur-2xl"></div>
+        <div class="relative rounded-[2rem] overflow-hidden bg-cream shadow-xl border border-butter">
+          <img src="product-proof.png" alt="Never Cold Again insoles in shoe" class="w-full h-auto object-cover"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-ink/10 to-transparent"></div>
+        </div>
+      </div>
+
+      <!-- Text (Right) -->
+      <div class="text-left">
+        <h2 class="text-4xl md:text-5xl font-serif mb-5">Designed for real winter walks.</h2>
+        <p class="text-ink-light text-lg font-light leading-relaxed mb-10">
+          Ultra-thin insoles engineered for city commutes and long days on your feet.
+        </p>
+
+        <ul class="space-y-4 text-ink-light font-light text-lg">
+          <li class="flex gap-3 items-start">
+            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
+            <span><span class="text-ink font-medium">Ultra-thin profile</span> — fits inside loafers, boots, and sneakers</span>
+          </li>
+          <li class="flex gap-3 items-start">
+            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
+            <span><span class="text-ink font-medium">Up to 10 hours</span> of warmth per pair</span>
+          </li>
+          <li class="flex gap-3 items-start">
+            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
+            <span><span class="text-ink font-medium">Air-activated heat</span> — no batteries</span>
+          </li>
+          <li class="flex gap-3 items-start">
+            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
+            <span><span class="text-ink font-medium">Made for everyday footwear</span> — designed with women’s shoes in mind</span>
+          </li>
+          <li class="flex gap-3 items-start">
+            <span class="mt-1 inline-flex w-6 h-6 rounded-full bg-lemon/20 items-center justify-center text-ink">✓</span>
+            <span><span class="text-ink font-medium">Lightweight feel</span> — seamless underfoot comfort</span>
+          </li>
+        </ul>
+
+        <div class="mt-10">
+          <a href="#waitlist" class="inline-flex bg-ink text-cream px-8 py-4 rounded-full items-center gap-3 hover:bg-ink-light transition-all hover:scale-105 active:scale-95 cursor-pointer">
+            Reserve your size
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+            </svg>
+          </a>
+          <p class="mt-3 text-sm text-ink-light font-light">First drop ships soon</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS LAST -->
+<section class="py-24 px-6 bg-cream">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<svg class="w-8 h-8 mx-auto mb-6 text-lemon fill-lemon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+<h2 class="text-4xl md:text-5xl font-serif mb-6">Tested in the cold.</h2>
+<p class="text-ink-light text-lg font-light">Early testers are already falling in love with the NCA experience.</p>
+</div>
+  
+<div class="grid md:grid-cols-3 gap-8">
+
+  <!-- Testimonial 1 -->
+  <div class="bg-butter/20 p-8 rounded-3xl border border-butter relative">
+    <div class="flex gap-1 mb-6 text-lemon">
+      ★ ★ ★ ★ ★
+    </div>
+    <p class="text-ink-light font-light leading-relaxed mb-6 italic">
+      "I walk 20 blocks to my office in Manhattan every day. I used to wear bulky snow boots and change at my desk. Now I just slip these into my loafers and my feet stay warm the entire commute."
+    </p>
+    <div>
+      <p class="font-medium text-ink">Sarah M.</p>
+      <p class="text-sm text-ink-light">Manhattan, NY</p>
+    </div>
+  </div>
+
+  <!-- Testimonial 2 -->
+  <div class="bg-butter/20 p-8 rounded-3xl border border-butter relative">
+    <div class="flex gap-1 mb-6 text-lemon">
+      ★ ★ ★ ★ ★
+    </div>
+    <p class="text-ink-light font-light leading-relaxed mb-6 italic">
+      "Waiting for the L train in January is brutal. These insoles are a lifesaver. They last my entire workday and commute home, and they don't make my boots feel tight."
+    </p>
+    <div>
+      <p class="font-medium text-ink">Elena R.</p>
+      <p class="text-sm text-ink-light">Brooklyn, NY</p>
+    </div>
+  </div>
+
+  <!-- Testimonial 3 -->
+  <div class="bg-butter/20 p-8 rounded-3xl border border-butter relative">
+    <div class="flex gap-1 mb-6 text-lemon">
+      ★ ★ ★ ★ ★
+    </div>
+    <p class="text-ink-light font-light leading-relaxed mb-6 italic">
+      "Finally something that actually fits in my sneakers. I wore them to an outdoor holiday market in West Loop and for the first time ever, I wasn’t the one begging to go inside."
+    </p>
+    <div>
+      <p class="font-medium text-ink">Chloe T.</p>
+      <p class="text-sm text-ink-light">Chicago, IL</p>
+    </div>
+  </div>
+
 </div>
 </div>
 </div>
